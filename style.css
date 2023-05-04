@@ -1,0 +1,209 @@
+/* General */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(./Assets/ttf/RobotoCondensed-BoldItalic.ttf) format("truetype");
+    font-weight: bold;
+}
+
+/* Header */
+
+.header{
+    background-color: coral;
+    padding: 30px 20px;
+}
+.header_contenido{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_navegador{
+    display: flex;
+}
+.header_navegador li{
+    margin: 0px 20px;
+}
+.header_navegador li a{
+    font-weight: bold;
+}
+.header_imagen{
+    width: 150px;
+}
+/* Main Index */
+
+.hero {
+    background-color: rgb(111, 130, 139);
+    padding: 60px 20px;
+    color: aliceblue;
+}
+
+.hero_contenido_informacion{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 50px;
+}
+.hero_texto{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero_video{
+    width: 1px;
+}
+.hero2_index{
+    background-color: rgb(111, 130, 139);
+    padding: 60px 20px;
+    color: aliceblue;
+}
+.hero2_titulo{
+    text-align: center;
+    margin: 10px 20px;
+    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+    font-size: 25px;
+}
+.hero2_imagenes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
+.hero2_imagen_1{
+    width: 100%;
+    transition: all 300ms;
+    position: relative;
+}
+.hero2_imagen_1:hover{
+    transform: scale(1.05);
+}
+.hero2_imagen_2{
+    width: 100%;
+    transition: all 300ms;
+    position: relative;
+}
+.hero2_imagen_2:hover{
+    transform: scale(1.05);
+}
+.hero2_imagen_3{
+    width: 100%;
+    transition: all 300ms;
+    position: relative;
+}
+.hero2_imagen_3:hover{
+    transform: scale(1.05);
+}
+
+
+/* Main Contacto */
+
+
+.divContacto{
+    width: 600px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Main Horarios */
+
+.divHorarios{
+    width: 600px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.divKickBoxing{
+    width: 600px;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.divDiasKick{
+    width: 600px;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.divP1Kick{
+    width: 600;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+.divP2Kick{
+    width: 600px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+.divP3Kick{
+    width: 600px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.divTaekwondo{
+    width: 600px;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.divDiasTae{
+    width: 600px;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.divP1Tae{
+    width: 600px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+.divP2Tae{
+    width: 600px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Main Quiénes somos */
+
+.divQuienesSomos{
+    width: 600px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.divParrafoUno{
+    width: 600px;
+    height: 100x;
+    margin: 10px;
+    padding: 10px;
+}
+.divParrafoDos{
+    width: 600px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
